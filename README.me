@@ -1,0 +1,125 @@
+# Java OOP Assignment – README
+
+This document explains the objectives, concepts, and expected outcomes for each of the five questions in the Java OOP assignment. The focus is on demonstrating core object‑oriented principles using clear, structured programs.
+
+---
+
+## Question 1: Encapsulation & Validation
+
+**Objective:**
+Design a `Student` class that safely manages student data.
+
+**Key Requirements:**
+
+* Create private attributes: `id`, `name`, and `cgpa`.
+* Use public getters and setters to access and modify these attributes.
+* Apply validation so that `cgpa` can only be set between `0.0` and `4.0`.
+* Write a `main` method to create a `Student` object and demonstrate valid and invalid CGPA values.
+
+**Concepts Used:**
+
+* Encapsulation (data hiding using `private` fields)
+* Validation logic inside setter methods
+
+---
+
+## Question 2: Inheritance & Method Overriding
+
+**Objective:**
+Show how inheritance and runtime polymorphism work in Java.
+
+**Key Requirements:**
+
+* Create a superclass `Employee` with a method `calculateSalary()`.
+* Create two subclasses: `FullTimeEmployee` and `PartTimeEmployee`.
+* Override `calculateSalary()` in each subclass with different salary calculation logic.
+* Demonstrate runtime polymorphism using a superclass reference pointing to subclass objects.
+
+**Concepts Used:**
+
+* Inheritance (`extends` keyword)
+* Method overriding
+* Runtime polymorphism
+
+---
+
+## Question 3: Abstract Class vs Interface
+
+**Objective:**
+Demonstrate abstraction using both abstract classes and interfaces.
+
+**Key Requirements:**
+
+* Create an abstract class `Shape` with an abstract method `area()`.
+* Implement two subclasses: `Circle` and `Rectangle`, each providing its own `area()` logic.
+* Create an interface `Drawable` with a method `draw()`.
+* Implement the `Drawable` interface in both `Circle` and `Rectangle` classes.
+* Briefly explain why both abstraction mechanisms are used.
+
+**Why Both Are Used:**
+
+* The abstract class defines a common structure and shared concept (`area`) for all shapes.
+* The interface defines a common behavior (`draw`) that can be shared across different classes and supports multiple inheritance.
+
+**Concepts Used:**
+
+* Abstraction
+* Abstract classes
+* Interfaces
+* Multiple inheritance via interface
+
+---
+
+## Question 4: Exception Handling
+
+**Objective:**
+Handle runtime errors safely while performing user input and arithmetic operations.
+
+**Key Requirements:**
+
+* Take two integers as input from the user.
+* Perform division of the first integer by the second.
+* Handle `ArithmeticException` (division by zero).
+* Handle `InputMismatchException` (invalid input type).
+* Use a `finally` block to print: `"Program Execution Completed"`.
+
+**Concepts Used:**
+
+* Try–catch–finally blocks
+* Built‑in Java exceptions
+* Robust error handling
+
+---
+
+## Question 5: Object Interaction & Array of Objects
+
+**Objective:**
+Work with multiple objects stored in an array and perform operations on them.
+
+**Key Requirements:**
+
+* Create a `Book` class with attributes: `bookId`, `title`, and `price`.
+* Store at least five `Book` objects in an array.
+* Display details of books whose price is greater than `500`.
+* Calculate and display the average price of all books.
+
+**Concepts Used:**
+
+* Array of objects
+* Object interaction
+* Conditional logic
+* Aggregation (average calculation)
+
+---
+
+## Summary
+
+This assignment covers the most important Java OOP concepts:
+
+* Encapsulation and data validation
+* Inheritance and method overriding
+* Abstraction using abstract classes and interfaces
+* Exception handling
+* Working with arrays of objects
+
+Together, these programs demonstrate clean design, reusability, and safe coding practices in Java.
